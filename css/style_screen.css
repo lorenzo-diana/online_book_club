@@ -1,0 +1,242 @@
+body {
+	background: black;
+	color: white;
+	background-image: url(../img_sistema/arcobaleno.png);
+}
+h1 { 
+  font-weight: bold; 
+  line-height: 14px; 
+  font-family: Comic, cursive; 
+  font-variant: normal;
+  font-style: italic; 
+}
+h4 {
+	color: black;
+}
+form {
+	width: inherit;
+}
+.primo {
+	background-image: url(../img_sistema/scala_blu.jpg);
+	position: relative;
+	width: 600px;
+	height: 500px;
+	line-height: 12px;
+	float: left;
+	color: black;
+	background-color:  #00FF99; /*#70D0B0; #66AF99;*/
+	border-style: groove; /* double groove outset */
+	border-width: 6px;
+	border-color: #3399FF;
+}
+.secondo {
+	background-image: url(../img_sistema/scala_blu.jpg);
+	position: relative;
+	width: 400px;
+	height: 500px;
+	line-height: 12px;
+	float: left;
+	color: black;
+	background-color: #70D0B0;
+	border-style: groove;
+	border-width: 6px;
+	border-color: #3399FF; /*#FFAF00;*/
+}
+.contenitore {
+	overflow: scroll;
+	background-image: url(../img_sistema/libri2.png);
+	background-color: #66AFB0;
+	bottom: 0px;
+	position: absolute;
+	width: inherit;
+	height: 400px;
+}
+.p_contrasto {
+	color: black;
+	background-color: white;
+	width: 50px;
+}
+#contenitore_home {
+	height: 430px;
+}
+.elemento {
+	float: left;
+	border: 20px solid transparent;
+	width: 150px;
+}
+.el_home {
+	height: 280px;
+}
+.el_lib {
+	height: 330px;
+}
+.img_el {
+	width: 150px;
+	height: 200px;
+}
+.box_laterale {
+	float: right;
+	width: 150px;
+	height: 200px;
+}
+.campi {
+	width: 600px;
+	height: 529px;
+	line-height: 12px;
+	float: left;
+	color: black;
+	background-color: yellow;
+	background-image: url(../img_sistema/righe.png);
+}
+.campi_nuovo {
+	width: 700px;
+	height: 521px;
+	line-height: 12px;
+	float: left;
+	color: black;
+	background-color: yellow;
+	background-image: url(../img_sistema/righe.png);
+}
+.copertina {
+	width: 250px;
+	height: 300px;
+	float: right;
+}
+.bottone {
+	position: absolute;
+	top: 280px;
+	left: 541px;
+}
+.bottone3 {
+	position: absolute;
+	top: 280px;
+	left: 457px;
+}
+.bottone2 {
+	position: relative;
+	float: right;
+}
+.p_bold {
+	font-weight: bold;
+}
+.p_autore_anno {
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 0px;
+}
+.p_voto {
+	font-weight: bold;
+	color: #99FF00;
+	margin-bottom: 0px;
+}
+.descrizione_libri {
+	text-decoration: none;
+	color: black;
+}
+.titoli_link {
+	text-decoration: none;
+}
+.p_genere {
+	text-decoration: none;
+	visibility: hidden;
+	margin-bottom: 0px;
+}
+#nascosto {
+	display: none;
+}
+.p_large {
+	font-weight: bold;
+	font-size: 30px;
+}
+.p_no_interlinea {
+	margin-bottom: 0px;
+	margin-top: 18px;
+}
+.i_no_interlinea {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.errore {
+	font-style: italic;
+	color: red;
+	background-image: url(../img_sistema/sfondo_index.png);
+}
+#err_gen {
+	width: 272px;
+}
+.p_inline {
+	display: inline;
+}
+.p_imm {
+	display: block;
+}
+.label_password {
+	margin-left: 94px;
+}
+.sposta_genere {
+	margin-left: 32px;
+}
+.p_left {
+	position: relative;
+	float: left;
+}
+.ricerca {
+	width: 300px;
+}
+.top1 {
+	margin-top: 60px;
+}
+.top2 {
+	margin-top: 40px;
+}
+.top_home {
+	margin-top: 60px;
+}
+.top_home2 {
+	margin-top: 70px;
+}
+.top_index {
+	margin-top: 10px;
+}
+.div_centrato {
+	position: relative;
+	left: 40%;
+}
+#registrazione {
+	left: 46%;
+}
+#entra {
+	height: 120px;
+}
+.sfondo_index {
+	width: 480px;
+}
+.titoli {
+	color: #00FF00;
+	font-family: Comic, cursive;
+}
+.no_resize {
+	max-width: 340px;
+	max-height: 106px;
+	min-width: 340px;
+	min-height: 106px;
+}
+#istruzioni {
+	color: white;
+	width: 70px;
+}
+#istr2 {
+	text-decoration: none;
+	color: white;
+}
+#div_istruzioni {
+	background-image: url(../img_sistema/sfondo_index.png);
+	width: 800px;
+	color: black;
+}
+#titolo_istruzioni {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 25px;
+}
